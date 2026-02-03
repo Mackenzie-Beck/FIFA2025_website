@@ -23,37 +23,18 @@ body {
 
 }
 
-#aside2 ol {
-    background-color: #ffccff;
-    padding: 0px;
-}
 
-#aside2 li {
-    background-color: #ff99cc;
-    margin: 10px;
-    padding: 10px;
-    border: 1px solid black;
-    list-style-position: inside;
-    text-align: left;
-}
+.bubble2 {
+    background-color: #ff99ff;
+    padding: 20px;
+    border: 4px solid black;
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 
-#aside2 li span{
-    background-color: #ff6699;
-}
-
-
-.even-todo {
-    background-color: #cc99ff;
-}
-
-.odd-todo {
-    background-color: #cc66ff;
-}
-
-
-.done-todo{
-    background-color: gray;
-    text-decoration: line-through;
 }
 
 .rounded-bubble {
@@ -64,15 +45,21 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    width: 70%;
 }
 
 
 #menu .rounded-bubble{
-    background-color: #cc0099;
+    background-color: #ec21b9;
     padding: 20px;
     border: 4px solid black;
 }
+
+#main-content .rounded-bubble{
+    background-color: #c615b4;
+    padding: 20px;
+    border: 4px solid black; 
+}
+
 
 #menu .rounded-bubble:hover{
     background-color: #ffccff;
